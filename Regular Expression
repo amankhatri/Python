@@ -1,0 +1,74 @@
+in python 18/4 returns 4.5
+and 18//4 is 4 which is round down
+2**4 is same as 2^4
+strings "Bucky Roberta" or 'Bucky Roberta'
+for example when we have sentence with single quote like this:
+I don't think she is 18 
+you should use double quotes 
+"I don't thinkn she is 18"
+escaping characters
+'I don\'t think she is 18'
+print("Hey now brown cow")
+print('c:\khatri\desktop\new folder')
+it prints 
+c:\khatri\desktop
+\new folder
+because of \n
+we can use verbatum symbol which is r
+print(r'c:\khatri\desktop\new folder')
+you can add strings
+firstName = "Bucky "
+firstName+ McLovin 
+results in Bucky McLovin
+you can also do 
+firstName*5 //printing multiple times
+= Bucky Bucky Bucky Bucky Bucky
+
+user = "Tuna McFish"
+user[0] returns T
+user[1] returns u
+user[2] returns n
+printing strings in reverse order
+user[-1] returns h
+user[-2] returns s
+slicing out sections of strings
+user[2:7] returns 'na Mc'
+user[:7] means start with the begning and end at seven which returns 'Tuna Mc'
+user[2:] means start with 2 and end at the end which returns 'na Mcfish'
+determining string length
+len('char') returns the number of characters in the word char which is 4
+we can also pass variables to len function 
+len(user) returns 11
+
+------------------Lists
+creating a list
+players = [29, 58, 66, 71, 87]
+players[2] returns 66
+substituting values in list
+players[2] = 68
+now if you do 
+players[2] it returns 68
+you can also add members to list
+players + [90,91,98] now when you press enter it returns
+[29, 58, 66, 71, 87,90,91,98]
+however it doesn't change the original list players, when you type 
+players it returns [29,58,68,71,87]
+if we want to change list permanently or if we want to append the players list we can do
+players.append(120)
+and now 
+players return [29,58,68,71,87,120]
++ doesn't changes the original list where as append changes it permanently
+slicing lists
+players[:2] returns [29, 58]
+you can also change the values like this
+players[:2] = [0,0]
+now players return [0,0,68,71,87,120]
+we can also set the values to blank or delete them
+playes[:2]= []
+players now returns [68,71,87,120]
+deleting the entire list can be achieved by
+players[:] = []
+now players returns [] //blank
+--------------------- In
+
+
